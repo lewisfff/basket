@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  basket:
+    image: basket
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: basket
+    restart: unless-stopped
+    volumes:
+      - "$PWD:/var/www/html"
+    ports:
+      - "9090:9090"
