@@ -3,7 +3,7 @@
 use App\Models\Product\Product;
 use PHPUnit\Framework\TestCase;
 
-class ProductTests extends TestCase
+class ProductTest extends TestCase
 {
     public function testGetCode(): void
     {

@@ -7,7 +7,7 @@ use App\Models\Product\Product;
 use App\Models\Product\ProductCollection;
 use PHPUnit\Framework\TestCase;
 
-class BasketTests extends TestCase
+class BasketTest extends TestCase
 {
     private ProductCollection $portfolio;
     private Offer $offer;

@@ -5,4 +5,4 @@
 ```docker-compose exec basket composer install```
 
 ## Run the tests
-```docker-compose exec basket php ./vendor/bin/phpunit ./tests/OfferTests.php```
+```docker-compose exec basket php ./vendor/bin/phpunit tests```

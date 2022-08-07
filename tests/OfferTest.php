@@ -4,7 +4,7 @@ use App\Models\Offer\Offer;
 use App\Models\Offer\OfferType;
 use PHPUnit\Framework\TestCase;
 
-class OfferTests extends TestCase
+class OfferTest extends TestCase
 {
     public function testHasOffer(): void
     {
